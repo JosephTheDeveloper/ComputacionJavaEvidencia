@@ -1,0 +1,19 @@
+# Archivos compilados
+
+*.class
+
+# Archivos temporales
+
+*.swp
+*.log
+
+# NetBeans
+
+nbproject/private/
+build/
+dist/
+
+# Sistema
+
+.DS_Store
+Thumbs.db
