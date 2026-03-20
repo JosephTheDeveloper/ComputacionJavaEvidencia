@@ -1,16 +1,48 @@
-# Computaci-n-en-Java---Evidencia-1
+# ComputacionEnJava---Evidencia
+Aplicación – Sistema de Acceso en Java
 
-Evidencia 1: Ejercicios con arrays
+Descripción
 
-Este proyecto fue desarrollado en Java utilizando el IDE NetBeans.
-Incluye el uso de la clase Scanner para la captura de datos por teclado.
+Este proyecto consiste en una aplicación desarrollada en Java utilizando la librería Swing, la cual implementa un sistema básico de inicio de sesión (login).
 
-El programa permite:
+El sistema permite al usuario ingresar un nombre de usuario y contraseña. Si las credenciales son correctas, se muestra una nueva ventana de bienvenida; en caso contrario, se muestra un mensaje de error.
 
-Sumar 10 números ingresados por el usuario
+---
 
-Generar los primeros 20 números pares mediante un arreglo
+Requisitos
 
-Calcular el promedio de estatura de 10 alumnos
+* Java JDK 8 o superior
+* NetBeans IDE (recomendado)
 
-Sumar números positivos y negativos por separado
+---
+
+Instalación
+
+1. Clonar el repositorio:
+
+   ```bash
+   git clone https://github.com/tu-usuario/Aplicacion.git
+   ```
+
+2. Abrir el proyecto en NetBeans
+
+3. Ejecutar el proyecto desde el IDE
+
+---
+
+Uso
+
+1. Ejecutar la aplicación
+
+2. Ingresar los siguientes datos:
+
+   Usuario: `admin`
+   Contraseña: `123`
+
+3. Presionar el botón "Ingresar"
+
+4. El sistema validará los datos:
+
+   * Correctos → Acceso a la ventana principal
+   * Incorrectos → Mensaje de error
+
